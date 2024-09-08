@@ -64,7 +64,6 @@ ostream &operator<<(ostream &out, const User &user)
     fout.open("UserList.txt", ios::app);
     if (user.userDetails.empty())
     {  
-        cout<<"Yes\n";
         out << "No users found.\n";
     }
     else
